@@ -13,7 +13,7 @@ from sklearn.linear_model import LogisticRegression
 import streamlit as st
 
 #load data
-s = pd.read_csv(r'C:\Users\avery\Desktop\GeorgeTown\Python\Final Project\social_media_usage.csv')
+s = pd.read_csv('social_media_usage.csv')
 
 #create function to set var equal to 1 or 0
 def clean_sm(x):
